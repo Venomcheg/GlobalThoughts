@@ -239,7 +239,9 @@ padding: 0 20px;
 	
 		}
 	@media(min-width: $md2) {
-
+		.service {
+			padding: 52px 0 0 0;
+		}
 		.advantage {
 			width: calc(1024px / 4);
 			min-height: 275px;	
@@ -250,7 +252,12 @@ padding: 0 20px;
 				margin: 20px 0 0 0;
 			}				
 		}
-		
+		.text-content__idea {
+			margin-top: 50px;
+		}
+		.text-content__integrate {
+			margin-bottom: 30px;
+		}
 			}
 		
 	@media(min-width: $mw) {
@@ -287,15 +294,10 @@ padding-right: 80px;
 		margin-top: 100px ;
 	}
 
-	&__line {
-	}
-
 	&__idea {
 		margin-top: 65px;
 	}
 
-	&__integrate {
-	}
 }
 
 		}
