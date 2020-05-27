@@ -52,7 +52,7 @@
 	}
 	&__wrap-boutic {
 
-		background: url("/img/Portfolio-1.jpg") 0 0 no-repeat;
+		background-image: url("/img/Portfolio-1.jpg");
 	}
 
 	&__link {
@@ -60,7 +60,8 @@
 		z-index: 2;
 		width: 12%;
 		height: 14%;
-		img {
+		img,
+		source {
 			height: 100%;
 			width: 100%;
 		}
@@ -75,15 +76,17 @@
 	}
 
 	&__wrap-build {
-		background: url("/img/Portfolio-2.jpg") 0 0 no-repeat;
+		background-image: url("/img/Portfolio-2.jpg");
 	}
 
 	&__wrap-coffee {
-		background: url("/img/Portfolio-3.jpg") 0 0 no-repeat;
+		background-image: url("/img/Portfolio-3.jpg");
 	}
 
 	&__wrap-unicum {
-		background: url("/img/Portfolio-4.jpg") 0 0 no-repeat;
+
+		background-image: url("/img/Portfolio-4.jpg");
+
 	}
 	&__wrap {
 		display: flex;
@@ -91,6 +94,8 @@
 		border-radius: 4px;
 		height: 250px;
 		padding: 10px;
+		background-position: 0 0;
+		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		&:hover {
 			.gallery-projects__bg{
@@ -126,6 +131,7 @@ line-height: auto;
 			width: 518px;
 			height: 460px;
 		}
+
 		&__label {
 			font-size: 20px;
 			line-height: auto;
