@@ -1,0 +1,47 @@
+.return {
+
+background-color: #F9F6E5;
+padding-top: 55px;
+	&__container {
+	}
+
+	&__body {
+	}
+
+	&__link {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+	&__text {
+		text-transform: uppercase;
+		font-family: Roboto Condensed;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 19px;
+		letter-spacing: 2px;
+		color: #000;
+	}
+
+	&__throw {
+		margin: 20px 0;
+	}
+}
+@media(min-width: $md4) {
+
+	.return {
+		padding: 8px 0;
+		&__throw {
+		
+			margin: 0 5px 0 20px;
+		}
+		&__link {
+			flex-direction: row;
+
+		}
+}
+
+	}

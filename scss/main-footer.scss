@@ -109,6 +109,7 @@ text-align: left;
 .contacts {
 	flex-direction: row;
 	flex-wrap: wrap;
+	align-items: flex-start;
 		&__item {
 			flex:  1 0 50%;
 		}
@@ -211,4 +212,4 @@ text-align: left;
 			&__text {
 			}
 	}
-	
+}
