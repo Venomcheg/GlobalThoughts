@@ -64,4 +64,40 @@ let main_slider = new Swiper('.top-main__slider', {
 
 	},
 
-});
+}
+);
+let quotes_slider = new Swiper('.quotes-slider', {
+	/*
+	effect: 'fade',
+	autoplay: {
+	delay: 3000,
+	disableOnInteraction: false,
+	},
+	*/
+	//observer: true,
+	observeParents: true,
+	slidesPerView: 1,
+	spaceBetween: 0,
+	autoHeight: true,
+	speed: 800,
+	//touchRatio: 0,
+	simulateTouch: true,
+	loop: true,
+	//preloadImages: false,
+	//lazy: true,
+	// Dotts
+	pagination: {
+		el: '.quotes-slider__pagination',
+		type: "bullets",
+	},
+	// Arrows
+	breakpoints: {
+		0: {
+			slidesPerView: 1,
+			spaceBetween: 0
+		}
+	},
+
+
+}
+);
